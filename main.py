@@ -27,7 +27,7 @@ def main(img_path: str, threshold: float) -> None:
     thresholded_data = threshold_data(data, threshold)
     average = get_mean(thresholded_data)
     print(f"Mean of voxels values above {threshold}: {average}")
-
+#333
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
